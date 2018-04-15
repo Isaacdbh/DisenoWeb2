@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta description="programacion web 1">
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/actividad1.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+	<title>Lectura 5</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	
+
+	<nav>
+	
+			<header>
+				<center>
+				<img src="https://thumb.ibb.co/ddx6Ux/Logo.png" alt="Logo" border="0"></center>
+
+				<div class="div2"><center><h4>Programacion Web 1</h4></center></div>
+			</header>	
+	
+	
+        <div id="header">
+			<ul class="menu1">
+				        <li><a href="index.html"><i class="icono izquierda fas fa-home"></i>Inicio</i></a></li>
+						<li class="activado"><a href="#"><i class="icono izquierda fas fa-book"></i>Lecturas<i class="icono derecha fas fa-chevron-circle-down"></i></a>
+                           <ul> 
+
+                           	<li><a href="lectura1.html">HTML</a></li>
+						    <li><a href="lectura2.html">Html 5 y CSS</a></li>
+						    <li><a href="lectura3.html">Javascript</a></li>
+						    <li><a href="lectura4.html">Video con HTML5</a></li>
+						    <li><a href="lectura5.html">Audio con HTML5</a></li>
+
+                           </ul> 
+                        </li>
+
+						<li class="activado"><a href="#"><i class="icono izquierda far fa-play-circle"></i>Multimedia<i class="icono derecha fas fa-chevron-circle-down"></i></a>
+
+                             <ul>
+                             	<li><a href="">Imagenes</a></li>
+						        <li><a href="">Videos</a></li>
+						     </ul>
+  
+
+						   </li>
+						<li class="activado"><a href="#"><i class="icono izquierda fas fa-briefcase"></i>Actividades<i class="icono derecha fas fa-chevron-circle-down"></i></a>
+							<ul>
+								<li><a href="actividad1.html">Resuelve HTML</a></li>
+						        <li><a href="">Pagina 2</a></li>
+						        <li><a href="">Pagina 3</a></li>
+							</ul>
+						</li>
+
+						<li><a href="autores.html"><i class="icono izquierda fas fa-subway"></i>Autores</a></li>
+				</ul>
+		</div>
+
+	
+		</ul>
+		<ul class="ul2">
+			<a href="https://www.facebook.com/UniversidadUNAD"> <img src="http://idgnow.com.br/idgimages/imagefolder.2016-06-13.1885562171/facebook-logo-crop-625.jpg"  width="50" height="44">
+		</ul>
+
+         <ul class="ul3">
+			<a href="https://twitter.com/UniversidadUNAD"> <img src="https://www.anerbarrena.com/wp-content/uploads/2016/08/twitter-300x240.jpg"  width="50" height="44">
+		</ul>
+        <ul class="ul4">
+			<a href="https://www.youtube.com/user/universidadunad"><img src="https://5bucks.ru/wp-content/uploads/2016/12/YouTube-icon-full_color-110x79.png"  width="50" height="44">
+		</ul>
+
+<div class="contador"><center>Visitas</center>
+<center><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter10.allfreecounter.com/private/contadorvisitasgratis.php?c=76hsa12y729r1jlfhe9lk8fe459yx32l" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a></center></div>
+	</nav>
+
+	<section id="contenedor">
+		<section id="principal">
+
+			<font size=4><CENTER><H1>Programando un reproductor de audio</H1></CENTER></font>
+			
+			<table>
+			<tr>
+				<h3>Ejercicios - Conceptos básicos</h3> <br>
+
+En el código base que se te proporciona debes realizar los siguientes cambios: <br>
+
+    Las siglas HTML deben aparecer como texto destacado en toda la página.
+    Tim Berners-Lee debe aparecer como texto enfatizado en toda la página.
+    Debes añadir el siguiente contenido:
+        Un encabezado de nivel 1 con el texto "HTML" antes de "HTML son las siglas de..."
+        Un encabezado de nivel 2 con el texto "Historia de HTML" antes de "Los inicios del lenguaje HTML..."
+        Un encabezado de nivel 2 con el texto "Versiones de HTML" antes de dos nuevos párrafos que contienen el texto "Tim Berners-Lee definió la primera versión de HTML en el año 1991" y "En la actualidad, la última versión de HTML es HTML5". <br><br>
+
+El resultado final debe ser una página web que tenga el mismo aspecto que la siguiente imagen: <br><br>
+
+<a href="https://ibb.co/k6Xkgn"><img src="https://preview.ibb.co/eCaSu7/ejercicio_basico_html.png" alt="ejercicio_basico_html" border="0"></a>
+<br> <br> <br>
+<h3>Código Base</h3>
+<br> <br>
+<div class="divcode">
+  <code>
+	  <pre>
+           <h6>
+
+         &lt;!DOCTYPE html&gt;
+         &lt;html&gt;
+         &lt;head&gt;
+         &lt;title&gt;El título de la página&lt;/title&gt;
+         &lt;/head&gt;
+         &lt;body&gt;
+
+         &lt;p&gt;&lt;strong>HTML&lt;/strong&gt; son las
+          siglas de &lt;em&gt;HyperText Markup 
+         Language&lt;/em&gt;, que puede traducirse como
+       lenguaje de marcas o marcado de hipertexto.
+         &lt;/p&gt;
+
+         &lt;p&gt;El lenguaje HTML se emplea para crear
+       las páginas web. Es muy fácil ver el 
+      código HTML de una página web, la opción exacta
+       cambia de un navegador a otro y 
+      también puede cambiar de una versión a otra de
+       un mismo navegador, pero suelen tener un nombre similar.
+         &lt;/p&gt;
+
+         &lt;p&gt;HTML se compone de etiquetas que se
+       escriben entre los símbolos menor que y mayor que.&lt;/p&gt;
+
+         &lt;p&gt;Los inicios del lenguaje HTML se
+       remontan al año 1990, cuando Tim Berners-Lee 
+       creó la primera página web.&lt;/p&gt;
+
+         &lt;/body&gt;
+         &lt;/html&gt;
+
+         </h6>
+       </pre>
+    </code>
+</div>
+
+			</tr>
+	<tr>
+<br> <br>
+
+         <h3>Solución</h3>
+<br>
+<div class="divcode">
+  <code>
+	  <pre>
+           <h6>
+
+         &lt;!DOCTYPE html&gt;
+         &lt;html&gt;
+         &lt;head&gt;
+         &lt;title&gt;HTML&lt;/title&gt;
+         &lt;/head&gt;
+         &lt;body&gt;
+
+         &lt;h1&gt;HTML&lt;/h1&gt;
+
+         &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; son las siglas 
+      de &lt;em&gt;HyperText Markup Language&lt;/em&gt;, que 
+      puede traducirse como lenguaje de marcas o marcado de hipertexto.
+         &lt;/p&gt;
+
+         &lt;p&gt;El lenguaje &lt;strong&gt;HTML&lt;/strong&gt; 
+      se emplea para crear las páginas web. Es muy fácil ver 
+      el código &lt;strong&gt;HTML&lt;/strong&gt; de una página 
+      web, la opción exacta cambia de un navegador a otro y 
+      también puede cambiar de una versión a otra de un mismo 
+               &lt;/p&gt;
+
+         &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; se compone 
+      de etiquetas que se escriben entre los símbolos menor que
+       y mayor que.&lt;/p&gt;
+
+         &lt;h2&gt;Historia de HTML&lt;/h2&gt;
+
+         &lt;p&gt;Los inicios del lenguaje &lt;strong&gt;HTML&lt;/strong&gt; 
+      se remontan al año 1990, cuando &lt;em&gt;Tim Berners-Lee&lt;/em&gt; 
+      creó la primera página web.&lt;/p&gt;
+
+         &lt;h2&gt;Versiones de HTML&lt;/h2&gt;
+
+         &lt;p&gt;&lt;em&gt;Tim Berners-Lee&lt;/em&gt; definió la primera
+       versión de &lt;strong&gt;HTML&lt;/strong&gt; en el año 1991.&lt;/p&gt;
+
+         &lt;p&gt;En la actualidad, la última versión de &lt;strong&gt;HTML&lt;/strong&gt;
+       es HTML5.&lt;/p&gt;
+
+         &lt;/body&gt;
+         &lt;/html&gt;
+
+         </h6>
+       </pre>
+    </code>
+</div>
+
+
+         </h6>
+       </pre>
+    </code>
+</div>
+
+
+	</tr>
+			</table>
+			
+		</section>
+		<aside>
+		<div class="twitter"> 
+<a class="twitter-timeline" data-lang="es" data-width="300" data-height="940" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+		</aside>
+	</section>
+  <footer>
+	
+  </footer>
+
+  
+</body>
+</html>
