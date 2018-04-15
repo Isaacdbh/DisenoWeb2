@@ -1,0 +1,160 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+{
+<link rel="stylesheet" href="../css/bootstrap.min.css">;
+}
+
+
+@font-face {
+    font-family: 'commandocommando';
+   
+    src: url('../font/commando.ttf') format('woff2'),
+         url('../font/commando-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	
+	background: #333333;
+	
+	font-size: 1.5em;  
+	
+}
+
+nav{
+	color: #ffffff;
+    font-family: "commandocommando";
+	position: fixed;
+	width: 250px;
+	height: 1000px;
+	background: #808080;
+	display: block;
+	text-decoration:none;
+
+}
+
+header{
+	margin-bottom: 0.0em auto;
+	margin: 0.9em auto;
+	padding: 0.3;
+
+}
+
+header div.div2 {
+	position: relative; left: 0px; top: 10px;
+
+}
+
+ul.ul2{
+	position: relative; left: 30px; top: 200px;
+
+}
+
+ul.ul3{
+	position: relative; left: 90px; top: 151px;
+
+}
+
+ul.ul4{
+	position: relative; left: 150px; top: 98px;
+
+}
+
+ul.menu1 li a {
+	            color:#fff;
+	            font-family: "font-family: Verdana, Geneva";
+				text-decoration:none;
+				padding:1px 2px;
+				position: relative; left: 0px; top: 20px;
+				
+			}
+div.contador {
+
+	position: relative; left: -6px; top: 240px;
+
+}
+
+ul.menu1 li .icono {
+
+	font-size: 18px;
+	margin-right: 14px;
+    margin-left: 10px;
+    position: relative; left: 0px; top: 24px;
+
+}
+
+ul.menu1 li .icono.izquierda {
+
+    float: left;
+    margin-right: 10px;
+
+}
+
+ul.menu1 li .icono.derecha {
+
+    float: right;
+    margin-left: 10px;
+
+}
+
+ul.menu1 ul{
+
+display: none;
+
+}
+
+
+section#contenedor{
+	position: relative; left: 250px; top: -20px;
+	margin: 0.5em auto;
+	max-width: 1900px;
+	padding: 20px;
+	background:#333333;
+
+}
+section#principal{
+	color: #ffffff;
+	position: relative; left: 6px; top: 0px;
+	background: #333333;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0em auto;
+	max-width: 800px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+div.twitter{
+	position: relative; left: 1000px; top:-1080px;
+
+}
+
+
+aside{
+	width: 30%;
+
+}
+
+footer{
+	position: relative; left: 250px; top: 320px;
+	background: #808080;
+	border-radius: 0.5em;
+	margin:0.5em auto;
+	max-width: 960px;
+	padding: :0.25em;
+	text-align: center;
+
+}
+
+table{
+    position: relative; left: 0px; top: 100px;
+    border-radius: 0.5em;
+    background:  #808080;
+	margin: 0px auto;
+	width: 1000px;
