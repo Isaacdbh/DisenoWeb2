@@ -1,0 +1,232 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+{
+<link rel="stylesheet" href="../css/bootstrap.min.css">;
+}
+
+
+@font-face {
+    font-family: 'commandocommando';
+   
+    src: url('../font/commando.ttf') format('woff2'),
+         url('../font/commando-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	
+	background: #333333;
+	
+	font-size: 1.5em;  
+}
+
+nav.nav0{
+	color: #ffffff;
+	background: #333333;
+    font-family: "Gill Sans MT";
+	position: relative; left: 330px; top: 0px;
+	width: 250px;
+	height: 1000px;
+	
+
+	text-decoration:none;
+	
+}
+
+nav.nav0> * :hover {
+  background: #F0B429;
+  border-radius: 0.5em;
+  color:#333333;
+	
+}
+
+nav.nav0 img {
+	border-radius: 0.5em;
+	margin: 1.5em auto;
+}
+
+nav div.nav0 {
+
+	color:#F0B429;
+	font-family: "font-family:Gill Sans MT";
+	text-decoration:none;
+	padding:2px 2px;
+					
+}
+
+nav.nav1 {
+
+	color: #ffffff;
+    font-family: "Gill Sans MT";
+	position: relative; left: 650px; top: -1000px;
+	width: 250px;
+	height: 1000px;
+	background:#F0B429;
+	display: block;
+	text-decoration:none;
+}
+
+nav.nav1 img {
+	border-radius: 0.5em;
+	margin: 1.5em auto;
+}
+
+nav.nav2 {
+
+	color: #ffffff;
+    font-family: "Gill Sans MT";
+	position: relative; left: 950px; top: -2000px;
+	width: 250px;
+	height: 1000px;
+	background:#F0B429;
+	display: block;
+	text-decoration:none;
+}
+
+nav.nav2 img {
+	border-radius: 0.5em;
+	margin: 1.5em auto;
+}
+
+nav.nav3 {
+
+	color: #ffffff;
+    font-family: "Gill Sans MT";
+	position: relative; left: 1250px; top: -3000px;
+	width: 250px;
+	height: 1000px;
+	background:#F0B429;
+	display: block;
+	text-decoration:none;
+}
+
+nav.nav3 img {
+	border-radius: 0.5em;
+	margin: 1.5em auto;
+}
+
+nav.nav4 {
+
+	color: #ffffff;
+    font-family: "Gill Sans MT";
+	position: relative; left: 1550px; top: -4000px;
+	width: 250px;
+	height: 1000px;
+	background:#F0B429;
+	display: block;
+	text-decoration:none;
+}
+
+nav.nav4 img {
+	border-radius: 0.5em;
+	margin: 1.5em auto;
+}
+
+nav {
+	color: #ffffff;
+    font-family: "commandocommando";
+	position: fixed;
+	width: 250px;
+	height: 1000px;
+	background: #808080;
+	display: block;
+	text-decoration:none;
+
+}
+
+header{
+	margin-bottom: 0.0em auto;
+	margin: 0.9em auto;
+	padding: 0.3;
+}
+
+header div.div2 {
+	position: relative; left: 0px; top: 10px;
+}
+
+ul.ul2{
+	position: relative; left: 30px; top: 200px;
+}
+
+ul.ul3{
+	position: relative; left: 90px; top: 151px;
+}
+
+ul.ul4{
+	position: relative; left: 150px; top: 98px;
+}
+
+ul.menu1 li a {
+	            color:#fff;
+	            font-family: "font-family: Verdana, Geneva";
+				text-decoration:none;
+				padding:1px 2px;
+				position: relative; left: 0px; top: 20px;
+				
+			}
+div.contador {
+
+	position: relative; left: -6px; top: 240px;
+}
+
+ul.menu1 li .icono {
+
+	font-size: 18px;
+	margin-right: 14px;
+    margin-left: 10px;
+    position: relative; left: 0px; top: 24px;
+}
+
+ul.menu1 li .icono.izquierda {
+
+    float: left;
+    margin-right: 10px;
+
+}
+
+ul.menu1 li .icono.derecha {
+
+    float: right;
+    margin-left: 10px;
+
+}
+
+ul.menu1 ul{
+
+display: none;
+
+}
+
+
+section#contenedor{
+	position: relative; left: 250px; top: -20px;
+	margin: 0.5em auto;
+	max-width: 1900px;
+	padding: 20px;
+	background:#333333;
+
+}
+section#principal{
+	color: #ffffff;
+	position: relative; left: 6px; top: 0px;
+	background: #333333;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0em auto;
+	max-width: 800px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 100%;
+
+}
+aside{
+	width: 30%;
+}
+
+div.twitter{
+	position: relative; left: 1840px; top:-5000px;
+}

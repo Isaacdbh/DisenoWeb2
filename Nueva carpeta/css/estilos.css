@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+{
+<link rel="stylesheet" href="../css/bootstrap.min.css">;
+}
+
+
+@font-face {
+    font-family: 'commandocommando';
+   
+    src: url('../font/commando.ttf') format('woff2'),
+         url('../font/commando-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	
+	background: #333333;
+	
+	font-size: 2em;  
+}
+
+nav{
+	color: #ffffff;
+    font-family: "commandocommando";
+	position: fixed;
+	width: 250px;
+	height: 1000px;
+	background: #808080;
+	display: block;
+	text-decoration:none;
+
+}
+
+
+
+li{
+position: relative; left: 0px; top: 100px;
+width: 100%;
+height:50px;
+border-bottom:1px solid #808080;
+overflow: hidden;
+display: block;
+text-decoration:none;
+
+}
+
+
+ul.ul2{
+	position: relative; left: 30px; top: 270px;
+}
+
+ul.ul3{
+	position: relative; left: 90px; top: 218px;
+}
+
+ul.ul4{
+	position: relative; left: 150px; top: 164px;
+}
+
+li.menu{
+	position: relative;
+	padding: 0px;
+	padding-right: 0px;
+	opacity: .6;
+	font-size: 0.7em;
+}
+
+ul, ol, li {
+				list-style:none;
+			}
+			
+			ul.nav1 > li {
+				float:left;
+			}
+			
+			ul.nav1 li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			ul.nav1 li a:hover {
+				background-color:#434343;
+			}
+			
+			ul.nav1 li ul {
+				display:none;
+				position:absolute;
+				min-width:10px;
+			}
+			
+			ul.nav1 li:hover > ul {
+				display:block;
+			}
+			
+			ul.nav1 li ul li ul {
+				position:relative;
+				display: inline-block;
+			}
+			
+			ul.nav1 li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+				#header1 {
+				margin:auto;
+				width:250px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+
+header{
+	margin-bottom: 0.0em auto;
+	margin: 0.5em auto;
+	padding: 0.3;
+	
+
+}
+section#contenedor{
+	position: relative; left: 250px; top: -20px;
+	margin: 0.5em auto;
+	max-width: 1900px;
+	padding: 20px;
+	background:#333333;
+
+}
+section#principal{
+	color: #ffffff;
+	position: relative; left: 6px; top: 0px;
+	background: #333333;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0em auto;
+	max-width: 800px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+aside{
+	position: relative; left: 820px; top:-550px;
+}
+
+table{
+    position: relative; left: 0px; top: 100px;
+    border-radius: 0.5em;
+    background:  #808080;
+	margin: 0px auto;
+	width: 1200px;
+
+
+}
+
+
+
+aside{
+	width: 30%;
+}
+footer{
+	position: relative; left: 250px; top: 320px;
+	background: #808080;
+	border-radius: 0.5em;
+	margin:0.5em auto;
+	max-width: 960px;
+	padding: :0.25em;
+	text-align: center;
+}
