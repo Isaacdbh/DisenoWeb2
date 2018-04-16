@@ -53,8 +53,8 @@
 						<li class="activado"><a href="#"><i class="icono izquierda fas fa-briefcase"></i>Actividades<i class="icono derecha fas fa-chevron-circle-down"></i></a>
 							<ul>
 								<li><a href="actividad1.html">Resuelve HTML</a></li>
-						        <li><a href="">Pagina 2</a></li>
-						        <li><a href="">Pagina 3</a></li>
+                    <li><a href="actividad2.html">CSS</a></li>
+                    <li><a href="actividad3.html">Formularios</a></li>
 							</ul>
 						</li>
 
@@ -82,147 +82,64 @@
 	<section id="contenedor">
 		<section id="principal">
 
-			<font size=4><CENTER><H1>CSS</H1></CENTER></font>
+			<font size=4><CENTER><H1>Formularios HTML5</H1></CENTER></font>
 			
 			<table>
 			<tr>
-				<h3>Ejercicios - ¿Cómo se usa?</h3> <br>
+				<h3>Ejercicios - Formularios (HTML5)</h3> <br>
 
-A partir de la página web que se te proporciona, debes emplear el atributo style para crear una página web que tenga el mismo aspecto que la siguiente imagen: <br> <br>
+    Enunciado
+
+    Crea una página web que contenga un formulario 
+    con los siguientes campos de información:
+
+    Nombre, con un control de tipo texto obligatorio
+     y con autofoco.
+    Correo electrónico, con un control de tipo
+     email obligatorio.
+    URL, con un control de tipo url que muestre
+     la ayuda "Escribe la URL de tu página web personal".
+    Fecha, con un control de tipo date.
+    Tiempo, con un control de tipo time.
+    Fecha y hora, con un control de tipo datetime.
+    Mes, con un control de tipo month.
+    Semana, con un control de tipo week.
+    Número, con un control de tipo number que
+     limite la entrada a un valor entre -10 y 10.
+    Teléfono, con un control de tipo tel.
+    Término de búsqueda, con un control de tipo search.
+    Color favorito, con un control de tipo color.
+    Un botón de envío.
+
+Además, tienes que tener en cuenta los siguientes requisitos:
+
+    El título de la página debe ser Formulario de prueba de HTML5.
+    El método de envío del formulario debe ser GET.
+    El destino del envío del formulario debe ser "".
+
+Nota: si al validar el código HTML de tu página web 
+con el validador del W3C se muestran mensajes de 
+advertencia como The date input type is not supported 
+in all browsers. Please be sure to test, and consider
+ using a polyfill. no te preocupes, el validador te 
+ está avisando de que lleves cuidado al usar una 
+ característica de HTML5 que no está admitida por 
+ todos los navegadores actuales.
+
+Nota: por lo anterior, cuando realices esta actividad 
+y compruebes cómo se visualiza tu página web en distintos 
+navegadores es muy probable que obtengas diferentes resultados.
+
+Debes crear una página web que tenga el mismo aspecto 
+que la siguiente imagen:<br> <br>
 
 
-<img src="https://preview.ibb.co/jvjTZ7/css.png" alt="css" border="0"></a>
+<img src="https://preview.ibb.co/bR3oZ7/formularios_html5.png" alt="formularios_html5" border="0"></a>
  
 
 <h5>Captura de pantalla del ejercicio</h5>
 <br>
-<pre class="pre1">
-<h6>
-Tienes que tener en cuenta los siguientes requisitos:
-
-    El texto principal:
-        El color del texto es azul: #00F.
-        El color de fondo del texto es verde claro: #CFC.
-        El tipo de letra es la secuencia: Georgia, Cambria, serif.
-        El tamaño del texto: 16px.
-    El encabezado de nivel 1:
-        El color del texto es rojo claro: #F00.
-        El tipo de letra es la secuencia: Verdana, Calibri, sans-serif.
-        El tamaño del texto: 32px.
-    El encabezado de nivel 2:
-        El color del texto es rojo claro: #A00.
-        El tipo de letra es la secuencia: Verdana, Calibri, sans-serif.
-        El tamaño del texto: 24px.
-    El color de los campos de los datos del libro es verde oscuro: #060.
-    El texto "Internet" y la "Web" cuando actúan como sustantivos:
-        El tamaño del texto: 20px.
-        Texto en negrita.
-    El texto "Hypertext Markup Language", "Cascading Style Sheets" y los
-     acrónimos "HTML" y "CSS":
-        El color del texto es blanco: #FFF.
-        El color de fondo del texto es negro: #000.
-        Texto en cursiva.
-
-Consejo: puedes utilizar las etiquetas de HTML &lt;em&gt; y &lt;strong&gt;.
-
-Consejo: puedes utilizar la etiqueta de HTML &lt;span&gt; para
-aplicar un estilo CSS a cualquier parte del texto.
-</h6>
-</pre>
 <br>
-<h3>Código Base</h3>
-<br> <br>
-<div class="divcode">
-  <code>
-	  <pre class="pre2">
-           <h6>
-
-         &lt;!DOCTYPE html&gt;
-        &lt;html&gt;
-        &lt;head&gt;
-        &lt;meta charset="utf-8" /&gt;
-        &lt;title&gt;HTML &amp; CSS: Curso práctico avanzado&lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-        &lt;h1&gt;HTML &amp; CSS: Curso práctico avanzado&lt;/h1&gt;
-
-         &lt;h2&gt;Datos del libro&lt;/h2&gt;
-
-        &lt;ul&gt;
-        &lt;li&gt;Título: HTML &amp; CSS: Curso práctico avanzado&lt;/li&gt;
-        &lt;li&gt;Autor: Sergio Luján Mora&lt;/li&gt;
-        &lt;li&gt;Editorial: Publicaciones Altaria&lt;/li&gt;
-        &lt;li&gt;Año de publicación: 2015&lt;/li&gt;
-        &lt;li&gt;ISBN: 978-84-944049-4-8&lt;/li&gt;
-        &lt;/ul&gt;
-
-
-           &lt;h2&gt;Descripción del libro&lt;/h2&gt;
-
-           &lt;p&gt;
-  Aunque los inicios de Internet se remontan a los años sesenta,
-   no ha sido hasta los años noventa cuando, grac Web, se ha extendid
-    su uso por todo el mundo. En pocos años, la Web ha evolucionado enormemente:
-     se ha pasado de páginas sencillas, con pocas imágenes y contenidos 
-     estáticos que eran visitadas por unos pocos usuarios a páginas
-      complejas, con contenidos dinámicos que provienen de bases de
-       datos y que son visitadas por miles de usuarios al mismo tiempo.
-           &lt;/p&gt;
-
-           &lt;p&gt;
-  Todas las páginas están internamente construidas con la misma tecnología,
-   con el Lenguaje de marcas de hipertexto (Hypertext Markup Language, HTML)
-     y con las Hojas de estilo en cascada (Cascading Style Sheets, CSS).
-           &lt;/p&gt;
-
-           &lt;p&gt;
-  Este libro es adecuado para cualquiera que tenga interés en aprender a 
-   desarrollar sus propias páginas web. No son necesarios conocimientos 
-  previos para aprender con este libro, lo único que es necesario es saber
-   utilizar un ordenador y saber navegar por la Web.
-           &lt;/p&gt;
-
-
-          &lt;h2&gt;Contenido del libro&lt;/h2&gt;
-
-           &lt;p&gt;
-          El contenido de este libro se estructura en tres apartados
-          bien diferenciados:
-           &lt;/p&gt;
-
-           &lt;ul&gt;
-           &lt;li&gt;En la primera parte del libro se trabajan conceptos generales 
-    que son necesarios para poder desarrollar páginas web; se explican 
- conceptos de estructura física y estructura lógica (o estructura de navegación) 
-       de un sitio web. Se detalla cómo influye la estructura física en las URL o 
-    direcciones que se emplean a la hora de crear los enlaces de un sitio web. 
- Pasando por el concepto de "estándar web", un término general que se emplea 
-   para refererirse a los estándares que define su funcionamiento como 
-    HTML y CSS, empleados para el desarrollo de las páginas web en 
-    el lado del cliente.&lt;/li&gt;
-
-           &lt;li&gt;En la segunda parte se trabaja HTML. Partiendo de la estructura 
-    básica de una página web, se explican las etiquetas de HTML que se utilizan 
-     pra definir el texto, los enlaces, las listas, las tablas, los formularios 
-       y los elementos multimedia.&lt;/li&gt;
-
-           &lt;li&gt;En la tercera y última parte se explica CSS, el lenguaje que se 
-    emplea para definir el formato y la presentación de una página web. Se explica 
-    cómo utilizar el color, cómo definir la presentación del texto, de las tablas 
-   y de los formularios; cómo realizar transformaciones y transiciones con el 
-           fin de diseñar una página web.&lt;/li&gt;
-           &lt;/ul&gt;
-           &lt;/body&gt;
-           &lt;/html&gt;
-         </h6>
-       </pre>
-    </code>
-</div>
-
-
-			</tr>
-	<tr>
-<br> <br>
 
          <h3>Solución</h3>
 <br>
@@ -232,46 +149,70 @@ aplicar un estilo CSS a cualquier parte del texto.
            <h6>
 
          &lt;!DOCTYPE html&gt;
-         &lt;html&gt;
-         &lt;head&gt;
-         &lt;title&gt;HTML&lt;/title&gt;
-         &lt;/head&gt;
-         &lt;body&gt;
+       &lt;html&gt;
+       &lt;head&gt;
+       &lt;title>Formulario de prueba de HTML5&lt;/title&gt;
+       &lt;/head&gt;
+       &lt;body&gt;
 
-         &lt;h1&gt;HTML&lt;/h1&gt;
+       &lt;form action="" method="get"&gt;
+       &lt;p&gt;
+   Nombre: &lt;input type="text" name="name_control" autofocus required /&gt;
+       &lt;/p&gt;
 
-         &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; son las siglas 
-      de &lt;em&gt;HyperText Markup Language&lt;/em&gt;, que 
-      puede traducirse como lenguaje de marcas o marcado de hipertexto.
+       &lt;p&gt;
+  Correo electrónico: &lt;input type="email" name="email_control" required /
+       &lt;/p
+
+      &lt;p
+     URL: &lt;input type="url" name="url_control" placeholder="Escribe
+    la URL de tu página web personal" /&gt;
+      &lt;/p&gt;
+
+     &lt;p&gt;
+  Fecha: &lt;input type="date" name="date_control" /&gt;
+     &lt;/p&gt;
+
+       &lt;p&gt;
+  Tiempo: &lt;input type="time" name="time_control" /&gt;
+       &lt;/p&gt;
+
+         &lt;p&gt;
+   Fecha y hora: &lt;input type="datetime" name="datetime_control" /&gt;
          &lt;/p&gt;
 
-         &lt;p&gt;El lenguaje &lt;strong&gt;HTML&lt;/strong&gt; 
-      se emplea para crear las páginas web. Es muy fácil ver 
-      el código &lt;strong&gt;HTML&lt;/strong&gt; de una página 
-      web, la opción exacta cambia de un navegador a otro y 
-      también puede cambiar de una versión a otra de un mismo 
-               &lt;/p&gt;
+         &lt;p&gt;
+   Mes: &lt;input type="month" name="month_control" /&gt;
+         &lt;/p&gt;
 
-         &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; se compone 
-      de etiquetas que se escriben entre los símbolos menor que
-       y mayor que.&lt;/p&gt;
+        &lt;p&gt;
+      Semana: &lt;input type="week" name="week_control" /&gt;
+        &lt;/p&gt;
 
-         &lt;h2&gt;Historia de HTML&lt;/h2&gt;
+        &lt;p&gt;
+    Número (min -10, max 10): &lt;input type="number" 
+    name="number_control" min="-10" max="10" value="0" /&gt;
+        &lt;/p&gt;
 
-         &lt;p&gt;Los inicios del lenguaje &lt;strong&gt;HTML&lt;/strong&gt; 
-      se remontan al año 1990, cuando &lt;em&gt;Tim Berners-Lee&lt;/em&gt; 
-      creó la primera página web.&lt;/p&gt;
+       &lt;p&gt;
+    Teléfono: &lt;input type="tel" name="tel_control" /&gt;
+       &lt;/p&gt;
 
-         &lt;h2&gt;Versiones de HTML&lt;/h2&gt;
+       &lt;p&gt;
+   Término de búsqueda: &lt;input type="search" name="search_control" /&gt;
+       &lt;/p&gt;
 
-         &lt;p&gt;&lt;em&gt;Tim Berners-Lee&lt;/em&gt; definió la primera
-       versión de &lt;strong&gt;HTML&lt;/strong&gt; en el año 1991.&lt;/p&gt;
+      &lt;p&gt;
+   Color favorito: &lt;input type="color" name="color_control" /&gt;
+      &lt;/p&gt;
 
-         &lt;p&gt;En la actualidad, la última versión de &lt;strong&gt;HTML&lt;/strong&gt;
-       es HTML5.&lt;/p&gt;
-
-         &lt;/body&gt;
-         &lt;/html&gt;
+       &lt;p&gt;
+   &lt;input type="submit" value="Enviar" /&gt;
+       &lt;/p&gt;
+       &lt;/form&gt;
+       &lt;/body&gt;
+       &lt;/html&gt;
+    
 
          </h6>
        </pre>
